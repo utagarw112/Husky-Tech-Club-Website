@@ -10,14 +10,13 @@ This is a plain HTML, CSS, and JavaScript site—no build step is required. From
 python3 -m http.server 8000
 ```
 
-Then open `http://localhost:8000`.
+Then open `http://localhost:8000/html/`.
 
 ## Project structure
 
 ```
 .
-├── index.html              # Homepage
-├── *.html                  # Other public pages, including 404.html
+├── html/                   # Public pages, including index.html and 404.html
 └── assets/
     ├── css/                # Shared styles
     ├── js/                 # Shared behavior and meeting data
@@ -28,14 +27,14 @@ Then open `http://localhost:8000`.
 ## Updating the site
 
 - Edit upcoming meetings in `assets/js/meetings-data.js`.
-- Put web-ready photos in `assets/images/` and set the matching `data-src` and `data-alt` values in the page HTML.
+- Put web-ready photos in `assets/images/` and set the matching relative `data-src` and `data-alt` values in the page HTML (for example, `../assets/images/photos/hero.jpg`).
 - Keep links relative so the site works locally, on GitHub Pages, and on other static hosts.
 
 ## Deploy with GitHub Pages
 
 1. Create a GitHub repository and push this folder's `main` branch.
 2. In the repository, open **Settings → Pages**.
-3. Set the source to **Deploy from a branch**, choose `main`, and select `/(root)`.
+3. Publish the `html/` directory with a GitHub Pages workflow or move the public pages back to the repository root before selecting the branch source.
 4. Save; GitHub publishes the site and serves `404.html` for missing pages.
 
-`.nojekyll` is included so GitHub Pages serves this static site without Jekyll processing.
+All internal URLs are relative to the public `html/` directory, so the site works from a static server without machine-specific paths.
