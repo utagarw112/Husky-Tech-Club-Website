@@ -1,0 +1,1 @@
+Logos and stickers are already in place (images/stickers/). Image slots for photos: hero.jpg, backing.jpg, about.jpg, gallery1-3.jpg, outreach1-4.jpg, <officer-name>.jpg. Paste the path into data-src in the matching page.

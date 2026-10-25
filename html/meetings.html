@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meetings | Husky Tech</title>
+<meta name="description" content="Meeting schedule for Husky Tech.">
+<meta name="theme-color" content="#0b0b0e">
+<!-- FAVICON -->
+<link rel="icon" href="assets/images/branding/huskytech_withoutbg.png">
+<script>document.documentElement.className='js';try{document.documentElement.dataset.theme=localStorage.getItem('ht-theme')||'dark'}catch(e){document.documentElement.dataset.theme='dark'}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600&family=Bricolage+Grotesque:opsz,wght@12..96,700;800&family=Caveat:wght@600;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<noscript><style>[data-panel][hidden]{display:block}</style></noscript>
+</head>
+<body data-page="meetings">
+<a class="skip" href="#main">Skip to content</a>
+<!-- Header is injected by js/main.js -->
+<header class="site-header" id="site-header"></header>
+<main id="main">
+<section class="phead"><img class="stk keep" src="assets/images/stickers/pennant.png" alt="" aria-hidden="true" loading="lazy" draggable="false" data-speed="0.08" style="--s:140px;--r:6deg;top:2rem;right:6%"><div class="wrap"><span class="eyebrow" style="--c:var(--orange)">Meetings</span><h1>Meeting schedule.</h1><p class="lead">We meet in Room 92 with our club advisor, Ms. Megan Thaler. Check the calendar below for dates.</p></div></section>
+<section style="border-top:0;padding-top:0"><div class="wrap">
+<!-- TO ADD OR CHANGE MEETINGS: edit js/meetings-data.js (this page updates itself) -->
+<div class="cards">
+<div class="card rv" style="--c:var(--orange)"><i class="fa-solid fa-door-open ico"></i><h3 style="margin-top:1rem">Where</h3><p>Room 92</p></div>
+<div class="card rv" style="--c:var(--yellow)"><i class="fa-solid fa-chalkboard-user ico"></i><h3 style="margin-top:1rem">Advisor</h3><p>Ms. Megan Thaler (Ms. Thaler)</p></div>
+<div class="card rv" style="--c:var(--green)"><i class="fa-solid fa-clock ico"></i><h3 style="margin-top:1rem">When</h3><p>Day and time: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div></div>
+<div id="cal" class="cal rv" aria-label="Meeting calendar"></div><div id="cal-detail" class="cal-detail" aria-live="polite"></div>
+<h2 style="margin:3.5rem 0 1.5rem">Upcoming</h2><div id="upcoming" class="cards"></div>
+<noscript><p>Please enable JavaScript to see the calendar.</p></noscript></div></section><section><div class="wrap"><div class="cta rv"><div><h2>New here?</h2><p>Register your interest and come to the next meeting.</p></div><div class="btns"><a class="btn btn-reg" href="https://tinyurl.com/whsclubinterest" target="_blank" rel="noopener">Register now <i class="fa-solid fa-arrow-right"></i></a><a class="btn btn-ghost" href="https://discord.gg/4ZCV4mYDE5" target="_blank" rel="noopener"><i class="fa-brands fa-discord"></i> Join Discord</a></div></div></div></section>
+</main>
+<!-- Footer is injected by js/main.js -->
+<footer class="site-footer" id="site-footer"></footer>
+<script src="assets/js/meetings-data.js"></script>
+<script src="assets/js/meetings.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
