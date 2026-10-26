@@ -8,7 +8,23 @@
    ========================================================== */
 window.MEETINGS = [
   // SAMPLE ENTRIES: replace with real meetings
-  { date: '2026-10-14', time: 'During FLEX:', title: 'Intro Meeting', place: 'Room 92', desc: 'Week 1: Informational Meeting' },
-  { date: '2026-11-19', time: 'Time TBD', title: 'Sample meeting (replace me)', place: 'Room 92', desc: 'Lorem ipsum dolor sit amet.' },
-  { date: '2026-12-03', time: 'Time TBD', title: 'Sample meeting (replace me)', place: 'Room 92', desc: 'Lorem ipsum dolor sit amet.' },
+  {
+    date: '2026-10-14',
+    time: 'During FLEX:',
+    title: 'Intro Meeting',
+    place: 'Room 92',
+    desc: 'Week 1: Informational Meeting'
+  }, {
+    date: '2026-11-19',
+    time: 'Time TBD',
+    title: 'Sample meeting (replace me)',
+    place: 'Room 92',
+    desc: 'Lorem ipsum dolor sit amet.'
+  }, {
+    date: '2026-12-03',
+    time: 'Time TBD',
+    title: 'Sample meeting (replace me)',
+    place: 'Room 92',
+    desc: 'Lorem ipsum dolor sit amet.'
+  },
 ];
