@@ -20,7 +20,7 @@
     ['resources', 'Resources']
   ];
   const page = document.body.dataset.page || '';
-  const LOGO = '<img class="logo-img" src="../assets/images/branding/huskytech_withoutbg.png" alt="">';
+  const LOGO = '<img class="logo-img" src="assets/images/branding/huskytech_withoutbg.png" alt="">';
 
   const header = document.getElementById('site-header');
   if (header) header.innerHTML = `
@@ -40,7 +40,7 @@
 
   const footer = document.getElementById('site-footer');
   if (footer) footer.innerHTML = `
-    <img class="stk" src="../assets/images/stickers/club-illustration.png" alt="" aria-hidden="true" data-speed=".03" style="--s:150px;--r:-6deg;top:-42px;right:5%">
+    <img class="stk" src="assets/images/stickers/club-illustration.png" alt="" aria-hidden="true" data-speed=".03" style="--s:150px;--r:-6deg;top:-42px;right:5%">
     <div class="wrap">
       <div class="fgrid">
         <div><a class="brand" href="index.html">${LOGO}Husky Tech</a>
