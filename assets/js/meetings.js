@@ -24,8 +24,8 @@
 
   document.querySelectorAll('[data-next-meeting]').forEach(el => {
     const n = up[0];
-    el.innerHTML = n ? `<span class="hand">next meeting</span><b>${esc(n.title)}</b><span>${fmt(n.d)} · ${esc(n.time)} · ${esc(n.place)}</span><a href="meetings.html">All meetings →</a>` :
-      `<span class="hand">next meeting</span><span>Dates coming soon. We meet in Room 92.</span><a href="meetings.html">Meeting info →</a>`;
+    el.innerHTML = n ? `<span class="hand">Next Meeting</span><b>${esc(n.title)}</b><span>${fmt(n.d)} · ${esc(n.time)} · ${esc(n.place)}</span><a href="meetings.html">All meetings →</a>` :
+      `<span class="hand">Next Meeting</span><span>Dates coming soon. We meet in Room 92.</span><a href="meetings.html">Meeting info →</a>`;
   });
 
   const root = document.getElementById('cal');
