@@ -15,16 +15,16 @@ window.MEETINGS = [
     place: 'Room 92',
     desc: 'Week 1: Informational Meeting'
   }, {
-    date: '2026-10-27',
-    time: 'During FLEX:',
+    date: '2026-10-28',
+    time: 'During FLEX',
     title: 'Boba-Drops Workshop',
     place: 'Room 92',
     desc: 'Week 2: Boba-Drops Workshop'
   }, {
-    date: '2026-12-03',
-    time: 'Time TBD',
-    title: 'Sample meeting (replace me)',
+    date: '2026-11-03',
+    time: 'During FLEX',
+    title: 'Swirl Workshop',
     place: 'Room 92',
-    desc: 'Lorem ipsum dolor sit amet.'
+    desc: 'Week 3: Swirl Workshop'
   },
 ];
